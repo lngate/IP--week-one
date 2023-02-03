@@ -1,9 +1,14 @@
+body{
+    font-family: sans-serif;
+    
+}
 ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
     overflow: hidden;
     background-color:aquamarine;
+    
 
 }
 
@@ -34,19 +39,8 @@ img {
 
 
 }
-p {
-    font-weight:bold;
-}
- #gotop{
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 15px 30px;
-    color:black;
-    text-decoration:none;
-    font-style: inherit;
 
- }
+ 
   .whitetext{
     background-color: white;
   }
@@ -55,25 +49,14 @@ p {
     width: 350px;
     border: 15px solid rgb(0, 81, 128);
     padding: 50px;
-    margin: 20px;
-     
+    margin: 20px; 
+    font-family:  sans-serif; 
   }
- #up{
-    float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
- }
+ 
 
  footer{
-    float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
- }
+float: inline-end;
+    
+    }
   
   
