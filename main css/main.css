@@ -54,9 +54,13 @@ img {
   }
  
 
- footer{
-float: inline-end;
+ 
+ .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
     
-    }
-  
+    
+ } 
   
