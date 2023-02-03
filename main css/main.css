@@ -1,3 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+
+}
+
+li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 30px;
+    /* color: black; */
+    text-decoration: none;
+    
+}
+ li a:hover:not(.active){
+    background-color: rgb(127, 204, 255);
+
+ }
+.active {
+    background-color: rgb(195, 255, 127);
+}
+
+
 img {
     width: 100px;
     border-radius: 50px;
