@@ -1,14 +1,16 @@
 body{
     font-family: sans-serif;
+    color: whitesmoke;
     
 }
+/*stylin for boxes*/
 .main-box {
     margin: 0;
     padding: 5px;
     background-color: lightgray;
   }
   
-  .main-box > h1, .box {
+  .main-box > h2, .box {
     margin: 10px;
     padding: 5px;
   }
@@ -21,7 +23,7 @@ body{
     margin: 4px;
     font-size: 90%;
   }
-
+/*stylin for navbar*/
 ul {
     list-style-type: none;
     margin: auto;
@@ -47,15 +49,15 @@ li a{
 
  }
 .active {
-    background-color: rgb(253, 255, 127);
+    background-color: rgb(217, 255, 127);
 }
 
-
+/*styling  for image*/
 img {
-    width: 100px;
-    border-radius: 50px;
+    width: 135px;
+    border-radius: 67px;
     float: left;
-    margin-right: 50px;
+    margin-right: 67px;
 
 
 }
@@ -70,4 +72,11 @@ img {
     margin-right: auto;
     width: 50px;
  } 
- 
+
+ /*styling for footer*/
+ footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(127, 255, 176);
+    color: white;
+  }
