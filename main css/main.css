@@ -34,7 +34,7 @@ ul {
 
 }
 
-li a{
+#navbar a{
     float: left;
     display: block;
     text-align: center;
@@ -44,7 +44,7 @@ li a{
     font-style: inherit;
     
 }
- li a:hover:not(.active){
+ #navbar a:hover:not(.active){
     background-color: rgb(127, 255, 176);
 
  }
